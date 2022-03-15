@@ -1,13 +1,5 @@
 module.exports = {
-  presets: [
-    [
-      '@babel/preset-env',
-      {
-        useBuiltIns: 'usage',
-        corejs: 3
-      }
-    ]
-  ],
+  presets: ['@babel/preset-env'],
   plugins: [
     [
       '@babel/plugin-transform-runtime',
@@ -17,6 +9,7 @@ module.exports = {
     ]
   ]
 };
+
 
 
 // .browserslistrc 看自己情况需要配置
